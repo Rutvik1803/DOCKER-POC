@@ -1,0 +1,6 @@
+services:
+  demo:
+    ports:
+      - 5000:5000
+    build: .
+    container_name: basic-demo
